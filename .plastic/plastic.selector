@@ -1,0 +1,4 @@
+repository "RPG MASTER BLASTER ULTRA FODA@Jotta_Freitas@cloud"
+  path "/"
+    br "/main"
+    co "/main"

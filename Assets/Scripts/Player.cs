@@ -52,13 +52,13 @@ public class Player : MonoBehaviour
             animator.SetBool("run", false);
         }
 
-         if(Input.GetAxis("Horizontal") > 0)
+         if(Input.GetAxis("Horizontal") > 0.000)
         {
             SR.flipX = false;
             animator.SetBool("run", true);
         }
 
-        if(Input.GetAxis("Horizontal") < 0)
+        if(Input.GetAxis("Horizontal") < 0.000)
         {
             SR.flipX = true;
             animator.SetBool("run", true);
