@@ -46,22 +46,21 @@ public class Player : MonoBehaviour
 
         rig.velocity= new Vector2(Input.GetAxis("Horizontal") * speed, rig.velocity.y);
 
-        if (Input.GetAxis("Horizontal") == 0)
-        {
             animator.SetBool("idle", true);
-            animator.SetBool("run", false);
-        }
+            animator.SetFloat("x", Input.GetAxis("Horizontal"));
+            animator.SetFloat("y", Input.GetAxis("Vertical"));
+
 
          if(Input.GetAxis("Horizontal") > 0.000)
         {
             SR.flipX = false;
-            animator.SetBool("run", true);
+            animator.SetBool("lado", true);
         }
 
         if(Input.GetAxis("Horizontal") < 0.000)
         {
             SR.flipX = true;
-            animator.SetBool("run", true);
+            animator.SetBool("lado", true);
         }
 
     }

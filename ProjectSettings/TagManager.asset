@@ -41,15 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: TILES
-    uniqueID: 1658553313
-    locked: 0
-  - name: PROPS
-    uniqueID: 3042122711
+  - name: CHAO
+    uniqueID: 529303113
     locked: 0
   - name: PLAYER
     uniqueID: 238762133
-    locked: 0
-  - name: TREES
-    uniqueID: 4117065345
     locked: 0
